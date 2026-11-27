@@ -3,12 +3,12 @@
 ## Final Project Submission Report
 
 **Project title:** Smart Campus Lost and Found<br>
-**Student name:** [Pending: enter the submitting student's full name]<br>
-**Student ID:** [Pending]<br>
-**Section:** [Pending]<br>
-**Team number:** [Pending, if applicable]<br>
-**Semester:** Autumn 2026<br>
-**Submission date:** [Pending]<br>
+**Student name:** Zarin Tabassum Medha\
+**Student ID:** 2222497\
+**Section:** 5\
+**Team number:** Individual\
+**Semester:** Autumn 2026\
+**Submission date:** 28 November 2026\
 **Submitted to:** Sayef Reyadh, Adjunct Lecturer, Department of Computer Science & Engineering<br>
 **GitHub repository:** <https://github.com/2222497-gif/2222497-Zarin-smart-campus-lost-and-found><br>
 **Vercel frontend:** <https://campus-lost-found-medha.vercel.app>
