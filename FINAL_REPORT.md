@@ -103,9 +103,9 @@ GitHub repository and is not the selected deployment target.
 - Backend unit tests cover authentication/session lifecycle, admin filtering
   and audit CSV, group membership/ownership, archive/removal data preservation,
   CORS selection, and additive migration of an existing items table.
-- Frontend production build: run separately from `frontend/` using
-  `npm run build`.
-- Python syntax/compilation checks and `git diff --check` are run before commit.
+- Frontend production build: passed from `frontend/` using `npm run build`.
+- Backend test suite: 10 tests passed.
+- Python compilation and `git diff --check`: passed.
 
 ### Vercel verified / blocked
 
@@ -119,8 +119,10 @@ GitHub repository and is not the selected deployment target.
 - A local `vercel build` attempt was blocked by Windows symlink permission
   errors in Vercel's builder cache. This is separate from the Vite production
   build and does not prove a hosted build will fail.
-- No production deployment of the current uncommitted source, public access
-  change, or live Neon schema update has been completed.
+- The latest source is committed and pushed to `medha-frontend`, but the
+  unconnected Vercel project did not auto-deploy it.
+- No production deployment of the latest source, public access change, or live
+  Neon schema update has been completed.
 
 ### Required manual production setup
 
